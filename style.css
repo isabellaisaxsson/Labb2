@@ -1,0 +1,101 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.name{
+    position: absolute;
+    left: 40%;
+}
+
+.personligProfil{
+    position: absolute;
+    left: 43%;
+    top: 80px;
+}
+
+#personligProfil{
+    position: absolute;
+    left: 36%;
+    top: 150px;
+    width: 500px;
+}
+
+.backgroundMeriter{
+    background-color: beige;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    left: 20%;
+    top: 270px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+
+.meriter{
+    position: absolute;
+    left: 32%;
+    top: 290px;
+}
+
+.meriterList{
+    position: absolute;
+    left: 30%;
+    top: 350px;
+}
+
+.kontakt{
+    position: absolute;
+    left: 57%;
+    top: 290px;
+}
+
+.kontaktList{
+    position: absolute;
+    left: 54.5%;
+    top: 350px;
+    list-style-type: none;
+}
+
+.arbetslivserfarenhet{
+    position: absolute;
+    left: 41%;
+    top: 620px;
+}
+
+.arbetslivserfarenhetList{
+    position: absolute;
+    left: 33%;
+    top: 670px;
+    line-height: 25px;
+}
+
+.title{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.underTitle{
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.listItem{
+    position: relative;
+    top: 2px;
+    left: 25px;
+}
+
+.utbildning{
+    position: absolute;
+    left: 45%;
+    top: 1200px;
+}
+
+.utbildningList{
+    position: absolute;
+    left: 33%;
+    top: 1250px;
+    line-height: 25px;
+}
