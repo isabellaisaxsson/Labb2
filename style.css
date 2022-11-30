@@ -1,72 +1,83 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: beige;
+    background-color: white;
+    height: 2110px;
+}
+
+#imgOfme{
+    width: 15%;
+    position: absolute;
+    left: 4%;
+    top: 300px;
+    box-shadow: 5px 7px 5px 5px rgb(144, 136, 124);
 }
 
 .name{
     position: absolute;
-    left: 40%;
+    left: 5%;
+    bottom: 250px;
+    font-size: 27px;
+}
+
+h2{
+    font-size: 23px;
 }
 
 .personligProfil{
     position: absolute;
-    left: 43%;
-    top: 80px;
+    left: 6.5%;
+    top: 500px;
 }
 
 #personligProfil{
     position: absolute;
-    left: 36%;
-    top: 150px;
-    width: 500px;
+    left: 3%;
+    top: 550px;
+    width: 20%;
 }
 
-.backgroundMeriter{
+.backgroundSide{
     background-color: beige;
-    width: 1000px;
-    height: 300px;
-    position: absolute;
-    left: 20%;
-    top: 270px;
+    width: 370px;
+    height: 1800px;
+    margin-left: 0%;
     box-shadow: 5px 5px 5px 5px grey;
 }
 
 
 .meriter{
     position: absolute;
-    left: 32%;
-    top: 290px;
+    left: 3%;
+    top: 720px;
 }
 
 .meriterList{
     position: absolute;
-    left: 30%;
-    top: 350px;
+    left: 0%;
+    top: 760px;
 }
 
 .kontakt{
     position: absolute;
-    left: 57%;
-    top: 290px;
+    left: 3%;
+    top: 980px;
 }
 
 .kontaktList{
     position: absolute;
-    left: 54.5%;
-    top: 350px;
+    left: 0%;
+    top: 1030px;
     list-style-type: none;
 }
 
 .arbetslivserfarenhet{
-    position: absolute;
-    left: 41%;
-    top: 620px;
+    
 }
 
 .arbetslivserfarenhetList{
     position: absolute;
     left: 33%;
-    top: 670px;
+    top: 1050px;
     line-height: 25px;
 }
 
@@ -90,12 +101,25 @@ body{
 .utbildning{
     position: absolute;
     left: 45%;
-    top: 1200px;
+    top: 1600px;
 }
 
 .utbildningList{
     position: absolute;
     left: 33%;
-    top: 1250px;
+    top: 1650px;
     line-height: 25px;
 }
+
+#btnPortfolio{
+    position: absolute;
+    left: 37%;
+    top: 2000px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    font-weight:600;
+    background-color: beige;
+    border-radius: 25px;
+}
+

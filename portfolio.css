@@ -1,0 +1,52 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 23px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.djur{
+    margin-left: 47.5%
+}
+
+.imgdjurId{
+    width: 60%;
+    margin-left: 19%;
+}
+
+.spel{
+    margin-left: 42%;
+    margin-top: 100px;
+}
+
+.imgSpel{
+    width: 70%;
+    margin-left: 13%;
+}
+
+.vital{
+    margin-left: 41.5%;
+    margin-top: 100px;
+}
+
+.imgVital{
+    width: 60%;
+    margin-left: 19%;
+}
+
+#btnCV{
+    width: 30%;
+    height: 3em;
+    border-radius: 5em;
+    font-size: 20px;
+    margin-left: 34%;
+    margin-top: 100px;
+    background-color: white;
+}
