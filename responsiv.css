@@ -1,0 +1,154 @@
+@media screen{
+    @media screen and (max-width:1400px){
+        #line1{
+            width: 50%;
+            margin-left: 13%;
+        }
+
+        #line2{
+            width: 50%;
+            margin-left: 13%;
+        }
+
+        #line3{
+            display: none;
+        }
+
+        #line4{
+            display: none;
+        }
+
+        #line5{
+            display: none;
+        }
+
+        #line6{
+            display: none;
+        }
+
+        #line7{
+            display: none;
+        }
+
+        #line8{
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width:1000px){
+        #line1{
+            width: 50%;
+            margin-left: 18%;
+        }
+
+        #line2{
+            width: 50%;
+            margin-left: 18%;
+        }
+
+
+    }
+
+    @media screen and (max-width:900px){
+        .backgroundSide{
+            background-color: beige;
+            width: 100%;
+            height: 1200px;
+            margin-left: 0%;
+        }
+
+        #imgOfme{
+            width: 230px;
+            margin-left: 25%;
+        }
+        
+        .name{
+            margin-left: 29%;
+            font-size: 27px;
+        }
+        
+        .personligProfil{
+           margin-left: 30%;
+           width: 50%;
+        }
+        
+        #personligProfil{
+           margin-left: 27%;
+            width: 50%;
+        }
+        
+        .meriter{
+            margin-left: 39%;
+            width: 50%;
+            
+        }
+        
+        .meriterList{
+            margin-left: 30%;
+            width: 50%;
+        }
+        
+        .kontakt{
+            margin-left: 32%;
+            width: 50%;
+        }
+        
+        .kontaktList{
+            margin-left: 30%;
+            width: 50%;
+        }
+        
+        .arbetslivserfarenhet{
+            position: absolute;
+            top: 1300px;
+            left: 25%;
+            width: 50%;
+        }
+        
+        
+        .arbetslivserfarenhetList{
+            position: absolute;
+            left: 16%;
+            top: 1400px;
+            width: 50%;
+            
+        }
+        
+    
+        .utbildning{
+            position: absolute;
+            left: 35%;
+            top: 2200px;
+            width: 50%;
+        }
+        
+
+        .utbildningList{
+          margin-top: 1400px;
+          margin-left: -30%;
+          width: 50%;
+        }
+        
+        #btnPortfolio{
+            margin-top: 1600px;
+            margin-left: -30%
+        }
+        
+    
+        #line1{
+            width: 50%;
+            margin-left: -6%;
+            top: 1370px;
+        }
+
+        #line2{
+            width: 50%;
+            margin-left: -8%;
+            margin-top: 1400px;
+        }
+
+    }
+
+
+}
