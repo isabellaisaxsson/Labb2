@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsiv.css">
+    <link rel="stylesheet" href="/Labb2/style/style.css">
+    <link rel="stylesheet" href="/Labb2/style/responsiv.css">
     <title>CV</title>
 </head>
 <body>
 
+    <!-- SIDEBAR BACKGROUND-->
+
     <div class="backgroundSide"> </div>
+
+    <!-- DIV to fade in the elements inside -->
 
     <div id="fadeInelements">
 
-    <h1 class="name">Isabella Isaksson</h1>
+    <!-- SIDEBAR -->
+
+    <h1 class="name">ISABELLA ISAKSSON</h1>
 
     <h2 class="personligProfil">Personlig Profil</h2>
 
@@ -52,12 +58,13 @@
 
             <li>Telefon: 0708512278</li>
             <li>E-post: isabella.isaksson2@outlook.com</li>
-            <li>LinkedIn: Isabella Isaksson</li>
-        <li><a href="https://github.com/isabellaisaxsson">Github: isabellaisaxsson</a></li>
+            <li><a onClick="linkedInFunction()"><u>LinkedIn: Isabella Isaksson</u></a></li>
+        <li><a onClick="githubFunction()"><u>Github: isabellaisaxsson</u></a></li>
 
         </ul>
 
     
+    <!-- MAIN PAGE -->
 
     <h3 class="arbetslivserfarenhet">Arbetslivserfarenhet</h3>
 
@@ -122,11 +129,15 @@
 
         <div id="line4"> </div>
 
+        <!-- BUTTON THAT GOES TO MY PORTFOLIO -->
+
         <input id="btnPortfolio" type="submit" value="Kolla in mitt Portfolio!" onClick="myFunction()"/>
 
         </div>
 
-        <script src="CV.js"></script>
+        <!-- LINK TO JAVASCRIPT FILE -->
+
+        <script src="/Labb2/JavaScript/CV.js"></script>
         
 </body>
 </html>
