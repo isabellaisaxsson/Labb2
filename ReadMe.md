@@ -1,4 +1,4 @@
-Namn: Isabella Isaksson CV
+Titel: Isabella Isakssons CV
 
 Beskrivning av uppgiften: 
 

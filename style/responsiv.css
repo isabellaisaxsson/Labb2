@@ -39,6 +39,8 @@
 
     /* WHEN WEBSITE IS 1000PX AND UNDER */
     @media screen and (max-width:1000px){
+    
+
         #line1{
             width: 50%;
             margin-left: 18%;
@@ -152,6 +154,25 @@
         }
 
     }
+/* WHEN WEBSITE IS 380PX AND UNDER */
+    @media screen and (max-width:390px){
 
+        .utbildning{
+            margin-top: 300px;
+        }
 
+        .utbildningList{
+            margin-top: 1700px;
+        }
+
+        #line2{
+            margin-top: 1690px;
+        }
+
+        #btnPortfolio{
+            margin-top: 2000px;
+            margin-left: -150px;
+           
+        }
+    }
 }

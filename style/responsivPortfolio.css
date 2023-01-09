@@ -1,0 +1,9 @@
+@media screen{
+    /* WHEN WEBSITE IS 500PX AND UNDER */
+    @media screen and (max-width:500px){
+
+        #btnCV{
+            margin-left: 30px;
+        }
+    }
+}

@@ -28,6 +28,7 @@ body{
 
 .name{
     position: absolute;
+    top: 60%;
     left: 3%;
     bottom: 280px;
     font-size: 30px;

@@ -11,7 +11,7 @@ function githubFunction(){
 
 function linkedInFunction(){
   window.location.href="https://www.linkedin.com/in/isabella-isaksson-904bab205/";
-}
+};
 
 function myFunction() {
     window.location.href="portfolio.html";  
